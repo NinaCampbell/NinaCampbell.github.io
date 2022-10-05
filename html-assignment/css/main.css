@@ -1,0 +1,48 @@
+/* changes body font family and size */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+/* changes background color of header and footer */
+header h1, footer p {
+    background-color: bisque;
+}
+
+/* changes site title color */
+.site-title {
+    color: brown;
+}
+
+/* adds box shadow to image */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black ;
+}
+
+/* changes bullet type to square in hobbies list */
+article ul {
+    list-style-type: square;
+}
+
+/* changes color of odd items in hobbies list */
+#hobbies li:nth-child(1) {
+    background-color: burlywood;
+}
+#hobbies li:nth-child(3) {
+    background-color: burlywood;
+}
+
+/* styles navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a[href="index.html"], a[href="notes.html"] {
+    text-decoration: none;
+    background-color: burlywood;
+    border-style: solid;
+}
+
+nav ul a[href="index.html"]:hover, a[href="notes.html"]:hover {
+    background-color: beige;
+}
