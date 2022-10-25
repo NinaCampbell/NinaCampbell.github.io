@@ -1,1 +1,45 @@
- 
+/* main background colour */
+html {
+    background-color: #aad4cf;
+}
+
+/* container holding header image and h1 text */
+.container {
+    width: 100%;
+    position: relative;
+}
+
+/* centres h1 on header image */
+.text-block {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+/* styles navigation */
+.wrapper {
+    width: 100%;
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a[href="#"] {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1rem;
+}
