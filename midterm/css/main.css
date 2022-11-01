@@ -116,7 +116,7 @@ input[type=email] {
 
 .btn {
     border: 2px solid grey;
-    background-color: none;
+    background-color: white;
     color: black;
     padding: 10px 20px;
     font-size: 16px;
@@ -128,7 +128,7 @@ input[type=email] {
 }
 
 .send:hover {
-    background-color: white;
+    background-color: lightgrey;
     color: grey;
 }
 
