@@ -1,45 +1,139 @@
-/* main background colour */
-html {
-    background-color: #aad4cf;
-}
+/***************
+    HEADING 
+****************/
 
-/* container holding header image and h1 text */
-.container {
-    width: 100%;
-    position: relative;
-}
-
-/* centres h1 on header image */
-.text-block {
-    position: absolute;
-    top: 60%;
-    left: 50%;
+header h1 {
+    background-image: url(../images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 341px;
+    text-align: center;
     color: white;
-    transform: translate(-50%, -50%);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    margin-top: 0;
+    padding: 2%;
+    font-size: 50px;
+    font-family: sans-serif;
 }
 
-/* styles navigation */
-.wrapper {
+/***************
+    NAVIGATION
+****************/
+
+ul.main-nav {
     width: 100%;
-    z-index: 2;
-    top: 0%;
-    left: 0%;
-    right: 0%;
+    overflow: auto;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-nav ul a[href="#"] {
+a:link,
+a:visited {
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
-nav ul li {
+.main-nav li {
+    float: left;
+    width: 33%;
     display: inline-block;
-    padding: 1rem;
+    list-style: none;
+    border-right: 2px solid grey;
+    font-size: x-large;
+    text-align: center;
+}
+
+.main-nav li:last-child {
+    border-right: none;
+}
+
+/***************
+    BODY
+****************/
+
+body {
+    background-color: #aad4cf;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-text h2 {
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.main-text {
+    width: 100%;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.small-starfish {
+    float: left;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.clearfix::after,
+.small-starfish,
+ul.main-nav {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.list {
+    font-family: sans-serif;
+}
+
+/***************
+    FORMS
+****************/
+
+.contact {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    font-family: sans-serif;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/* Send Button */
+
+.btn {
+    border: 2px solid grey;
+    background-color: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.send {
+    border-color: grey;
+    color: grey;
+}
+
+.send:hover {
+    background-color: white;
+    color: grey;
+}
+
+/* Copyright */
+
+footer {
+    text-align: right;
 }
