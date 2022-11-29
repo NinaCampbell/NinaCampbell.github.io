@@ -1,0 +1,9 @@
+.nav {
+    /* background-color: aquamarine; */
+}
+
+.banner {
+    background-image: url('/images/main-banner.jpg');
+    width: 100%;
+    /* height: auto; */
+}
