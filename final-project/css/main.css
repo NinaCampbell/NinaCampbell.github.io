@@ -1,6 +1,53 @@
+/* Styles main navigation and logo*/
+
 .nav {
-    /* background-color: aquamarine; */
+    background-color: #222;
 }
+
+ul.main-nav {
+   width: 100%;
+   overflow: auto;
+}
+
+.main-nav li {
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+.logo {
+    float: left;
+}
+
+.logo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-nav a {
+    font-size: large;
+    display: block;
+    text-align: center;
+    color: #C78C06;
+    text-decoration: none;
+}
+
+.main-nav a:active,
+.main-nav a:focus,
+.main-nav a:hover {
+    color:#222;
+    text-decoration: none;
+    background-color: #C78C06;
+}
+
+
+
+
+
+
+
+
 
 .banner {
     background-image: url('/images/main-banner.jpg');
