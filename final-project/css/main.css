@@ -7,6 +7,7 @@
 ul.main-nav {
    width: 100%;
    overflow: auto;
+   font-family: 'Open Sans', sans-serif;
 }
 
 .main-nav li {
@@ -41,16 +42,88 @@ ul.main-nav {
     background-color: #C78C06;
 }
 
+/* Styles search bar and submit button */
+.srch-bar {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.search_btn {
+    background-color: #222222;
+    border: 1px solid #C78C06;
+}
+
+.glyphicon-search {
+    color: #C78C06;
+}
 
 
 
 
 
 
-
+/* Styles welcome page */
 
 .banner {
     background-image: url('/images/main-banner.jpg');
     width: 100%;
-    /* height: auto; */
+    height: auto; 
+}
+
+.welcome {
+    /* background-color: #222222; */
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+}
+
+
+/* Styles main */
+
+/* Styles About */
+.about {
+    background-color: #FFE6AC;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.about h1 {
+    font-weight: bold;
+}
+
+/* Styles 'Our Services' */
+.our-services h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold
+}
+
+/* Styles Cards */
+
+.card {
+    width: 100%;
+    background-color: #FFE6AC;
+    font-family: 'Open Sans',sans-serif;
+    
+}
+
+.card-img {
+    width: 100%;
+}
+
+.wrapper h2 {
+    font-weight: bold;
+}
+
+.black-btn {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    border: none;
 }

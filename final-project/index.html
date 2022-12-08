@@ -17,13 +17,20 @@
     <!-- Arrow -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Final Project</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+    </style>
 </head>
 
 <body>
     <!-- Nav and Search Bar -->
     <div class="header">
         <div class="nav">
-            <div class="box"></div>
             <ul class="main-nav">
                 <li><a href="#"><img src="images/logo.png" alt="Logo" class="logo"></a></li>
                 <li><a href="#">Home</a></li>
@@ -32,15 +39,15 @@
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </div>
-        <!-- Search Bar -->
-        <form id="search-bar" role="search">
-            <input type="search" id="query" name="Search" placeholder="Search">
-            <button type="button" class="search_btn">
-                <span class="glyphicon glyphicon-search"></span>
-            </button>
-        </form>
 
+            <!-- Search Bar -->
+            <form id="search-bar" role="search" class="srch-bar">
+                <input type="search" id="query" name="Search" placeholder="Search">
+                <button type="button" class="search_btn">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </form>
+        </div>
         <!-- Welcome Page -->
         <div class="banner">
             <div class="welcome">
@@ -60,7 +67,7 @@
     <main>
         <div class="wrapper">
             <div class="about">
-                <img src="images/about-us.jpg" alt="about-us">
+                <img src="images/about-us.jpg" alt="about-us" class="about-img">
                 <h1>About Us</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium odit aut consequuntur eius
                     voluptatibus
@@ -87,24 +94,29 @@
 
                 <!-- Digital Transformation -->
                 <div class="card digital">
-                    <img src="images/digital.jpg" alt="digital">
+                    <img src="images/digital.jpg" alt="digital" class="card-img">
+
                     <h2>Digital Transformation</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam modi excepturi sapiente. Iure,
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam modi excepturi sapiente.
+                        Iure,
                         architecto
-                        voluptates. Distinctio vero omnis, qui sed nam voluptates facere. Veniam consequatur nam sint at
+                        voluptates. Distinctio vero omnis, qui sed nam voluptates facere. Veniam consequatur nam
+                        sint at
                         ut.
                         Fuga!
                     </p>
-                    <button type="button" class="digital-plans">
+                    <button type="button" class="black-btn">
                         Digital Plans
                         <i class="material-icons">play_arrow</i>
                     </button>
+
                 </div>
 
 
 
                 <!-- Marketing -->
                 <div class="card marketing">
+                    <img src="images/marketing.jpg" alt="laptop" class="card-img">
                     <h2>Marketing</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis sit nihil, tempora
                         saepe
@@ -112,7 +124,7 @@
                         tempore reiciendis eveniet id in, temporibus corrupti beatae! Sit saepe eaque nobis similique
                         officia
                         soluta?</p>
-                    <button type="button" class="marketing-plans">
+                    <button type="button" class="black-btn">
                         Marketing Plans
                         <i class="material-icons">play_arrow</i>
                     </button>
@@ -120,7 +132,7 @@
 
                 <!-- Video Production -->
                 <div class="card video">
-                    <img src="images/video.jpg" alt="video">
+                    <img src="images/video.jpg" alt="video" class="card-img">
                     <h2>Video Production</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque a provident excepturi animi
                         eligendi
@@ -128,7 +140,7 @@
                         veritatis
                         suscipit
                         sed quibusdam. In, porro.</p>
-                    <button type="button" class="video-plans">
+                    <button type="button" class="black-btn">
                         Video Plans
                         <i class="material-icons">play_arrow</i>
                     </button>
@@ -136,14 +148,14 @@
 
                 <!-- Web Development -->
                 <div class="card web">
-                    <img src="images/web.jpg" alt="web">
+                    <img src="images/web.jpg" alt="web" class="card-img">
                     <h2>Web Development</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ad. Quibusdam mollitia labore
                         incidunt
                         nihil praesentium sed reiciendis temporibus facere delectus placeat? Sint autem laboriosam ipsum
                         rem
                         blanditiis consequuntur veniam?</p>
-                    <button type="button" class="web-plans">
+                    <button type="button" class="black-btn">
                         Web Plans
                         <i class="material-icons">play_arrow</i>
                     </button>
@@ -151,7 +163,7 @@
 
                 <!-- Print -->
                 <div class="card print">
-                    <img src="images/print.jpg" alt="mailboxes">
+                    <img src="images/print.jpg" alt="mailboxes" class="card-img">
                     <h2>Print</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam hic fugit eius eveniet,
                         perspiciatis
@@ -159,7 +171,7 @@
                         qui cum facilis a unde. Accusamus velit quae fugiat sunt! Accusantium iusto ipsa blanditiis.
                         Atque?
                     </p>
-                    <button type="button" class="print-plans">
+                    <button type="button" class="black-btn">
                         Print Plans
                         <i class="material-icons">play_arrow</i>
                     </button>
