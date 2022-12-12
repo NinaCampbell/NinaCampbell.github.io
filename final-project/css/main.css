@@ -110,15 +110,19 @@ ul.main-nav {
 .our-services h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    padding: 15px;
+    padding-left: 10px;
+    padding-top: 15px;
 }
 
 /* Styles Cards */
 .card {
-    width: 100%;
+    width: 97%;
     background-color: #FFE6AC;
     font-family: 'Open Sans',sans-serif;
     padding-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 .card-img {
@@ -139,8 +143,10 @@ ul.main-nav {
 
 .wrapper .card-h2, .card-p {
     padding-left: 1px;
+    padding-right: 1px;
 } 
 
 .card-text {
     padding-left: 14px;
+    padding-right: 14px;
 }
