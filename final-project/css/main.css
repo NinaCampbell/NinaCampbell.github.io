@@ -1,4 +1,6 @@
-/* Styles main navigation and logo*/
+/*******************************
+Styles main navigation and logo
+********************************/
 
 .nav {
     background-color: #222;
@@ -45,7 +47,9 @@ ul.main-nav {
     background-color: #C78C06;
 }
 
-/* Styles search bar and submit button */
+/***********************************
+Styles search bar and submit button 
+************************************/
 .srch-bar {
     font-family: 'Open Sans', sans-serif;
     display: block;
@@ -71,7 +75,9 @@ ul.main-nav {
 
 
 
-/* Styles welcome page */
+/*******************
+Styles welcome page 
+********************/
 .banner {
     background-image: url('/images/main-banner.jpg');
     width: 100%;
@@ -114,7 +120,9 @@ ul.main-nav {
     padding-top: 15px;
 }
 
-/* Styles Cards */
+/************
+Styles Cards 
+*************/
 .card {
     width: 97%;
     background-color: #FFE6AC;
@@ -151,7 +159,9 @@ ul.main-nav {
     padding-right: 14px;
 }
 
-/* Styles "Our Vision" */
+/*******************
+Styles "Our Vision" 
+********************/
 .vision {
     background-image: url('/images/vision.jpg');
     background-position: center;
@@ -169,7 +179,9 @@ ul.main-nav {
     border: 1px solid #C78C06;
 }
 
-/* Styles "Our Team" */
+/*****************
+Styles "Our Team" 
+******************/
 .our-team {
     padding-left: 15px;
 }
@@ -210,5 +222,73 @@ Styles Contact Page
  }
 
  .send-message {
+    padding: 15px;
+ }
+
+ .form {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    text-align: center;
+    width: 100%;
     
  }
+
+ .message {
+    padding-bottom: 80px;
+ }
+
+ .send-btn {
+    background-color: #222222;
+    border: none;
+    color: #C78C06;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+ }
+
+ /****************************
+ Styles Operation Hours Table
+ *****************************/
+
+ .hours h2 {
+    font-weight: bold;
+    padding-left: 15px;
+ }
+
+.row {
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+.column {
+    border-right: 1px solid;
+    padding: 10px;
+}
+
+.table {
+    width: 100%;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+.column-days, .column-hours {
+    text-align: center;
+    background-color: #FFE6AC;
+}
+
+/***************
+Styles Location 
+****************/
+.location {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.map {
+    width: 100%;
+}
