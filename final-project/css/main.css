@@ -150,3 +150,65 @@ ul.main-nav {
     padding-left: 14px;
     padding-right: 14px;
 }
+
+/* Styles "Our Vision" */
+.vision {
+    background-image: url('/images/vision.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.learn-more {
+    padding: 16px;
+    background-color: #222222;
+    border: 1px solid #C78C06;
+}
+
+/* Styles "Our Team" */
+.our-team {
+    padding-left: 15px;
+}
+
+.team {
+    width: 97%;
+    background-color: #FFE6AC;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.team-pic {
+    width: 100%;
+}
+
+.team-text {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.team-text h4 {
+    font-weight: bold;
+    padding-left: 1px;
+    border-bottom: 2px solid #C78C06;
+}
+
+/********************
+Styles Contact Page 
+ ********************/
+
+ .contact-us {
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 50px;
+ }
+
+ .send-message {
+    
+ }
