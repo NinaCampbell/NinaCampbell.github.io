@@ -70,25 +70,35 @@ Styles search bar and submit button
     color: #C78C06;
 }
 
-
-
-
-
-
 /*******************
 Styles welcome page 
 ********************/
 .banner {
     background-image: url('/images/main-banner.jpg');
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: auto; 
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 
 .welcome {
-    /* background-color: #222222; */
+    background-color: rgb(34, 34, 34, 0.7);
     font-family: 'Open Sans', sans-serif;
     color: white;
-    
+    padding: 15px;
+}
+
+.welcome h1 {
+    font-weight: bold;
+}
+
+.connect {
+    background-color: #C78C06;
+    color: #222222;
+    border: none;
+    padding: 15px;
 }
 
 
@@ -291,4 +301,17 @@ Styles Location
 
 .map {
     width: 100%;
+}
+
+/*************
+Styles Footer
+**************/
+footer {
+    background-color: #222222;
+    color: #C78C06;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-top: 15px;
 }
