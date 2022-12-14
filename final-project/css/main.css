@@ -1,3 +1,7 @@
+/******
+MOBILE
+*******/
+
 /*******************************
 Styles main navigation and logo
 ********************************/
@@ -314,4 +318,130 @@ footer {
     padding-top: 40px;
     padding-bottom: 10px;
     margin-top: 15px;
+}
+
+/*******
+DESKTOP
+********/
+
+@media screen and (min-width:1200px) {
+    /******************************
+    Styles navigation for Desktop 
+    *******************************/
+    .nav {
+        display: grid;
+        
+    }
+
+    /**************************
+    Styles Welcome for Desktop
+    ***************************/
+    .welcome {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    /*************** 
+    Styles about us
+    ****************/
+    .about-img {
+        width: 50%;
+        padding-left: 80px;
+    }
+
+    .about {
+        padding-left: 15px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about .about-text:nth-child(1) {
+        flex-basis: 100%;
+    }
+
+    .about .about-text:nth-child(2), 
+    .about .about-text:nth-child(3) {
+        
+    }
+    
+    /************************
+    Styles Cards for desktop
+    *************************/
+    .our-services {
+        padding-left: 80px;
+    }
+
+    .black-btn {
+        padding: 25px;
+        width: 100%;
+    }
+
+    .services {
+        padding-left: 80px;
+        padding-right: 80px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .services .card:nth-child(1),
+    .services .card:nth-child(2) {
+        grid-column: span 2;
+    }
+
+    .services .card:nth-child(3),
+    .services .card:nth-child(4),
+    .services .card:nth-child(5) {
+        grid-column: span 1;
+    }
+
+    /*******************************
+    Stles team for desktop
+    ********************************/
+    .team-wrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .team {
+        padding-bottom: 0;
+        margin-top: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .team .john-pic {
+        grid-area: 1/1/1/1;
+    }
+
+    .team .team-text:nth-child(1) {
+        grid-area: 2/1/2/1;
+    }
+
+    .team .bob-pic {
+        grid-area: 1/2/2/2;
+    }
+
+    /******************************************
+    Styles contact, hours, and map for desktop
+    *******************************************/
+    .contact-page {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .contact-page .contact {
+        grid-area: 1/2/1/1;
+    }
+
+    .contact-page .location {
+        margin-top: 50px;
+        grid-area: 1/2/2/2;
+    }
+
+    .contact-page .hours {
+        grid-area: 2/1/2/2;
+    }
 }
